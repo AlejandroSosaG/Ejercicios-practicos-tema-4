@@ -21,13 +21,17 @@ public class Numeros {
 		// Devolvemos el valor de la variable primo.
 		return primo;
 	}
+	/**
+	 * Esta función dice si la variable que se pasa por parámetro es capicua o no.
+	 * @param numero
+	 * @return
+	 */
 	public boolean esCapicua(int numero) {
-				int cifra1;
-				int cifra2;
-				int cifra3;
-				int cifra4;
+				int cifra1; // Esta variable es la primera cifra del número.
+				int cifra2; // Esta es la segunda cifra del número.
+				int cifra3; // Esta variable es la tercera cifra del número.
+				int cifra4; // Esta es la cuarta cifra del número.
 				boolean capicua=false; // Esta es la variable que validará si el número es capicúa o no.
-				
 				// Si el numero tiene una cifra es capicúa.
 				if(numero<10) {
 					capicua=true;
@@ -59,6 +63,7 @@ public class Numeros {
 						}
 					}
 				}
+				// Devolvemos el valor de la variable capicua.
 				return capicua;
 	}
 }

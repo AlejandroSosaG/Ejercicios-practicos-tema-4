@@ -24,11 +24,11 @@ public class Main {
 		min = sc.nextInt();
 		// Mostamos por pantalla un mensaje con el tipo de aleatorios que se mostrarán.
 		System.out.println("Números aleatorios entre 0 y 1");
-		// Llamamos a la función numerosAleatorios a la que le pasamos el valor de cant.
+		// Llamamos a la función numerosAleatorios de la clase NumerosAleatorios a la que le pasamos el valor de cant.
 		NumerosAleatorios.numerosAleatorios(cant);
-		// Llamamos a la función numerosAleatorios a la que le pasamos el valor de cant y max.
+		// Llamamos a la función numerosAleatorios de la clase NumerosAleatorios a la que le pasamos el valor de cant y max.
 		NumerosAleatorios.numerosAleatorios(cant, max);
-		// Llamamos a la función numerosAleatorios a la que le pasamos el valor de cant, min y max.
+		// Llamamos a la función numerosAleatorios de la clase NumerosAleatorios a la que le pasamos el valor de cant, min y max.
 		NumerosAleatorios.numerosAleatorios(cant, min, max);
 		// Cerramos el escaner.
 		sc.close();

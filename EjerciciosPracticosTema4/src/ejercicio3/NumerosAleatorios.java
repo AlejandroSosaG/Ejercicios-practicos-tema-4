@@ -38,6 +38,12 @@ public class NumerosAleatorios {
 			System.out.println(random);
 		}
 	}
+	/**
+	 * Esta función se encarga de generar números aleatorios con valor entre la segunda y la tercera variable pasadas por parámetro.
+	 * @param a
+	 * @param b
+	 * @param c
+	 */
 	public static void numerosAleatorios(int a, int b, int c) {
 		int random; // Esta variable es la que utilizaremos para generar aleatorios.
 		// Mostramos por pantalla un mensaje con el tipo de aleatorios que se mostrarán.
